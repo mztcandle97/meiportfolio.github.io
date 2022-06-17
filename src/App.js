@@ -137,8 +137,9 @@ const darkMode = theme.state.darkMode;
         <Route path='/contact' element={<Contact/>}></Route>
         <Route exact path='/game' element={<Game/>}></Route>
         </Routes>
+              <Footer></Footer>
+
       </Router>
-      <Footer></Footer>
 
     </div>
   );
