@@ -1,11 +1,11 @@
 import React, { useContext } from "react";
 import "./Services.css";
 import Card from "../Card/Card";
-import HeartEmoji from "../../img/heartemoji.png";
-import Glasses from "../../img/glasses.png";
-import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
+import Girl from "../../img/gitl.png";
+import Design from "../../img/tic.png";
+import Odoo from "../../img/odoo.png";
 import Resume from './mei.pdf';
 
 const Services = () => {
@@ -27,46 +27,45 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
         </div>
-        <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       {/* right */}
       <div className="cards">
         {/* first card */}
         <motion.div
           initial={{ rotate: "25rem" }}
-          whileInView={{ left: "41rem" }}
+          whileInView={{ left: "1rem" }}
           transition={transition}
         >
           <Card
-            emoji={HeartEmoji}
+            emoji={Design}
             heading={"Design"}
-            detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+            detail={"Figma,Canva, etc.. "}
           />
         </motion.div>
         {/* second card */}
         <motion.div
             initial={{ rotate: "25rem" }}
           // initial={{ left: "-11rem", top: "20rem" }}
-          whileInView={{ left: "3rem" }}
+          whileInView={{ left: "19rem" }}
           transition={transition}
         >
           <Card
-            emoji={Glasses}
-            heading={"Developer"}
-            detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+            emoji={Girl}
+            heading={"Software Engineer"}
+            detail={"Html, Css, JavaScript, React, etc ..."}
           />
         </motion.div>
         {/* 3rd */}
         <motion.div
             initial={{ rotate: "25rem" }}
           // initial={{ top: "19rem", left: "25rem" }}
-          whileInView={{ left: "22rem" }}
+          whileInView={{ left: "37rem" }}
           transition={transition}
         >
           <Card
-            emoji={Humble}
-            heading={"UI/UX"}
+            emoji={Odoo}
+            heading={"Odoo Developer"}
             detail={
-              "Lorem ispum dummy text are usually use in section where we need some random text"
+              "Custom Module, Custom Reports, Odoo sh, etc.."
             }
             color="rgba(252, 166, 31, 0.45)"
           />

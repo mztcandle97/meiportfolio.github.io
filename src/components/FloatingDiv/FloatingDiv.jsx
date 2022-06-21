@@ -1,6 +1,5 @@
 import React from "react";
 import Github from "../../img/github.png";
-import LinkedIn from "../../img/linkedin.png";
 
 import './FloatingDiv.css'
 

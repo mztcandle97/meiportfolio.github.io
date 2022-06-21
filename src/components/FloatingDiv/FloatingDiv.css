@@ -17,4 +17,14 @@
   /* yahan ye color add kia hy bad mein dark mode k waqt */
   color: black;
 }
+.f-backCircle {
+  position: absolute;
+  width: 10rem;
+  border-radius: 80%;
+  /* darkMode */
+  z-index: -2;
+  top: -4rem;
+  left: -8rem;
+  height: 4.5rem;
+}
 

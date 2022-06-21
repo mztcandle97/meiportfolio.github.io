@@ -6,9 +6,9 @@
   top: 0;
 }
 .n-left {
-  flex: 1;
+  flex: 15;
   align-items: center;
-  justify-content: left;
+  justify-content: flex-start;
   display: flex;
   gap: 2rem;
 }

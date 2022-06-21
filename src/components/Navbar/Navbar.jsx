@@ -86,58 +86,108 @@ import Toggle from "../Toggle/Toggle";
 import "./Navbar.css";
 import { Link } from "react-scroll";
 import Intro from "../Intro/Intro";
+import Service from "../../img/service.png";
+// import game from "./img/game.png";
+import ga from "../../img/ga.png";
+import Exp from "../../img/exp.png";
+// import Candle from "../../img/candle.png";
+import Candle1 from "../../img/candle1.png";
 
 const navbar = () => {
   return (
+    
+
+    
+    // <div className="n-wrapper" id="Navbar">
+    //   {/* left */}
+    //   <div className="n-left">
+    //     <div className="n-name">Mei</div>
+    //     <Toggle />
+    //   </div>
+    //   {/* right */}
+    //   <div className="n-right">
+    //     <div className="n-list">
+    //       <ul style={{ listStyleType: "none" }}>
+    //         <li>
+    //           <Link activeClass="active" to="Navbar" spy={true} smooth={true}>
+    //             Home
+    //           </Link>
+    //         </li>
+    //         <li>
+    //           <Link to="services" spy={true} smooth={true}>
+    //             Serivces
+    //           </Link>
+    //         </li>
+    //         <li>
+    //           <Link to="game" spy={true} smooth={true}>
+    //             Game
+    //           </Link>
+    //         </li>
+    //         <li>
+    //           <Link to="works" spy={true} smooth={true}>
+    //             Experience
+    //           </Link>
+    //         </li>
+    //         <li>
+    //           <Link to="portfolio" spy={true} smooth={true}>
+    //             Protfolio
+    //           </Link>
+    //         </li>
+    //         <li>
+    //           <Link to="testimonial" spy={true} smooth={true}>
+    //             Testimonial
+    //           </Link>
+    //         </li>
+    //       </ul>
+    //     </div>
+    //     <Link to="contact" spy={true} smooth={true}>
+    //     <button className="button n-button">Contact</button>
+    //     </Link>
+    //   </div>
+    
+    // </div>
+    
     <div className="n-wrapper" id="Navbar">
-      {/* left */}
-      <div className="n-left">
-        <div className="n-name">Mei</div>
-        <Toggle />
-      </div>
-      {/* right */}
-      <div className="n-right">
-        <div className="n-list">
-          <ul style={{ listStyleType: "none" }}>
-            <li>
-              <Link activeClass="active" to="Navbar" spy={true} smooth={true}>
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link to="services" spy={true} smooth={true}>
-                Serivces
-              </Link>
-            </li>
+    {/* left */}
+    <div className="n-left">
+      <Link activeClass="active" to="/" spy={true} smooth={true}>
+           <img src={Candle1} alt="" />
+            </Link>
+            <div className="n-name">Mei</div>
+
+    </div>
+    {/* right */}
+    <div className="n-right">
+      <div className="n-list">
+        <ul style={{ listStyleType: "none" }}>
+          <li>
+            <Link activeClass="active" to="/" spy={true} smooth={true}>
+            </Link>
+          </li>  
+          <li>
+            <Link to="works" spy={true} smooth={true}>
+            <img src={Exp} alt="" />
+            </Link>
+          </li>
+          <li>
+            <Link to="services" spy={true} smooth={true}>
+                <img src={Service} alt="Service" />
+            </Link>
+          </li>
             <li>
               <Link to="game" spy={true} smooth={true}>
-                Game
+              <img src={ga} alt="" />
               </Link>
             </li>
-            <li>
-              <Link to="works" spy={true} smooth={true}>
-                Experience
+              <li>
+              <Link to="intro" spy={true} smooth={true}>
+              <img src={Exp} alt="" />
               </Link>
             </li>
-            <li>
-              <Link to="portfolio" spy={true} smooth={true}>
-                Protfolio
-              </Link>
-            </li>
-            <li>
-              <Link to="testimonial" spy={true} smooth={true}>
-                Testimonial
-              </Link>
-            </li>
-          </ul>
-        </div>
-        <Link to="contact" spy={true} smooth={true}>
-        <button className="button n-button">Contact</button>
-        </Link>
+        </ul>
       </div>
-    
     </div>
-    
+    </div>
   );
 };
 

@@ -11,6 +11,21 @@ export const Board = ({ board, onClick }) => {
           return <Box value={value} onClick={() => value === null && onClick(idx)} />;
         })
       }
+      <div
+            className="blur s-blur1"
+            style={{ background: "#ABF1FF94" }}
+          ></div>
+          <div
+        className="blur"
+        style={{
+          background: "#C1F5FF",
+          top: "5rem",
+          width: "20rem",
+          height: "5rem",
+          left: "60rem",
+        }}
+      ></div>
     </div>
+    
   )
 }

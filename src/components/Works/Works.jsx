@@ -1,25 +1,18 @@
 import React, { useContext } from "react";
 import "./Works.css";
-import Upwork from "../../img/Upwork.png";
-import Fiverr from "../../img/fiverr.png";
-import Amazon from "../../img/amazon.png";
+import Girl from "../../img/gitl.png";
 import odoo from "../../img/odoo.png";
-import react from "../../img/react.jpg";
-import intro from "../../img/intro.jpg";
-import code from "../../img/code.jpg";
-import Shopify from "../../img/Shopify.png";
-import Facebook from "../../img/Facebook.png";
+import Coding from "../../img/coding.png";
+import Database from "../../img/database.png";
+import reactimage from "../../img/react.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import {Link} from 'react-scroll'
 import Resume from './mei.pdf';
 
 
 const Works = () => {
   // context
   const theme = useContext(themeContext);
-  const darkMode = theme.state.darkMode;
-
   // transition
   return (
     <div className="works" id="works">
@@ -27,19 +20,27 @@ const Works = () => {
       {/* <div className="w-left"> */}
         <div className="awesome">
           {/* dark Mode */}
-          <span style={{ color: darkMode ? "white" : "" }}>
+          <span>
            Let me Introduce myself
           </span>
           <span>Software Engineer</span>
           <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
+            <ul>
+              <li> I have been working as a software Engineer for two years,</li>learning the ins and outs of programming.
+              <li>I try to do a good job in all roles I have in life,</li>and I enjoy the process immensely.
+              <li> I create beautiful and funtional website for small business.</li>
+              <li> I also have a strong experience in odoo development</li>
+            </ul>
+           {/* I have been working as a software Engineer for two years,climbing the career ladder,
+           <br/>
+           learning the ins and outs of programming.
             <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
+            I try to do a good job in all roles I have in life, and I enjoy the process immensely.
             <br />
-            y dummy text of printingLorem
+            I create beautiful and funtional website for small business.
             <br />
-            ispum is simpley dummy text of printing
+            I also have a strong experience in odoo development . */}
+
           </spane>
           {/* <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
@@ -57,7 +58,7 @@ const Works = () => {
         {/* right side */}
       {/* </div> */}
       <div className="w-right">
-        {/* <motion.div
+        <motion.div
           initial={{ rotate: 45 }}
           whileInView={{ rotate: 0 }}
           viewport={{ margin: "-40px" }}
@@ -68,33 +69,19 @@ const Works = () => {
             <img src={odoo} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={react} alt="" />
+            <img src={reactimage} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={intro} alt="" />
+            <img src={Girl} alt="" />
           </div>{" "}
           <div className="w-secCircle">
-            <img src={code} alt="" />
+            <img src={Database} alt="" />
           </div>
           <div className="w-secCircle">
-            <img src={Facebook} alt="" />
+            <img src={Coding} alt="" />
           </div>
-        </motion.div> */}
-        {/* background Circles */}
-        <motion.div
-          initial={{ rotate: 45 }}
-          whileInView={{ rotate: 0 }}
-          viewport={{ margin: "40px" }}
-          transition={{ duration: 3.5, type: "spring" }}
-          className="w-mainCircle"
-        >
-           <div className="w-secCircle">
-            <img src={intro} alt="" />
-          </div>
+         
         </motion.div>
-       
-        {/* <div className="w-backCircle blueCircle"></div>
-        <div className="w-backCircle yellowCircle"></div> */}
       </div>
     </div>
   );

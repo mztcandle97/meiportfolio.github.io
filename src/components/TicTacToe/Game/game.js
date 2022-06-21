@@ -76,7 +76,7 @@ const Game = () => {
   }
 
   return (
-    <div >
+    <div className="game">
       <ScoreBoard scores={scores} xPlaying={xPlaying} />
       <Board board={board} onClick={gameOver ? resetBoard : handleBoxClick} />
       <ResetButton resetBoard={resetBoard} />
