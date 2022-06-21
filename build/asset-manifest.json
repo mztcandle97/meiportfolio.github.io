@@ -1,30 +1,17 @@
 {
   "files": {
-    "main.css": "/meiportfolio.github.io/static/css/main.1e344d83.css",
-    "main.js": "/meiportfolio.github.io/static/js/main.41d4244f.js",
-    "static/media/ecommerce.png": "/meiportfolio.github.io/static/media/ecommerce.522da76635d52117102b.png",
+    "main.css": "/meiportfolio.github.io/static/css/main.e8b91127.css",
+    "main.js": "/meiportfolio.github.io/static/js/main.722d3970.js",
     "static/media/mei.pdf": "/meiportfolio.github.io/static/media/mei.e1d2debbb65130dae97f.pdf",
-    "static/media/sidebar.png": "/meiportfolio.github.io/static/media/sidebar.b2225070b8adae68d063.png",
-    "static/media/musicapp.png": "/meiportfolio.github.io/static/media/musicapp.f1c301f91904ef5f9249.png",
-    "static/media/boy.png": "/meiportfolio.github.io/static/media/boy.5ca4b670a32b71681d2c.png",
-    "static/media/glassesimoji.png": "/meiportfolio.github.io/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
-    "static/media/intro.jpg": "/meiportfolio.github.io/static/media/intro.f4cee6f04393a52a62be.jpg",
-    "static/media/react.jpg": "/meiportfolio.github.io/static/media/react.400b5778b663fb40a640.jpg",
-    "static/media/hoc.png": "/meiportfolio.github.io/static/media/hoc.e6af51fc04c57ae67096.png",
-    "static/media/code.jpg": "/meiportfolio.github.io/static/media/code.1f4a4155deede7b2387c.jpg",
-    "static/media/thumbup.png": "/meiportfolio.github.io/static/media/thumbup.e06790ba656f0397cbe5.png",
-    "static/media/humble.png": "/meiportfolio.github.io/static/media/humble.c8b32b53675e68978981.png",
-    "static/media/heartemoji.png": "/meiportfolio.github.io/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
-    "static/media/wave.png": "/meiportfolio.github.io/static/media/wave.fdfef4069ad90f610990.png",
-    "static/media/crown.png": "/meiportfolio.github.io/static/media/crown.dbe416beae9b49b842ab.png",
-    "static/media/Vector2.png": "/meiportfolio.github.io/static/media/Vector2.28db5bfd58081dd1df1b.png",
-    "static/media/glasses.png": "/meiportfolio.github.io/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "static/media/whatapp.png": "/meiportfolio.github.io/static/media/whatapp.7ae129108af51741eb44.png",
+    "static/media/odoo.png": "/meiportfolio.github.io/static/media/odoo.8dd80d5e5e9752358721.png",
+    "static/media/github.png": "/meiportfolio.github.io/static/media/github.9c243051c916e4d5f64c.png",
     "index.html": "/meiportfolio.github.io/index.html",
-    "main.1e344d83.css.map": "/meiportfolio.github.io/static/css/main.1e344d83.css.map",
-    "main.41d4244f.js.map": "/meiportfolio.github.io/static/js/main.41d4244f.js.map"
+    "main.e8b91127.css.map": "/meiportfolio.github.io/static/css/main.e8b91127.css.map",
+    "main.722d3970.js.map": "/meiportfolio.github.io/static/js/main.722d3970.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e344d83.css",
-    "static/js/main.41d4244f.js"
+    "static/css/main.e8b91127.css",
+    "static/js/main.722d3970.js"
   ]
 }
