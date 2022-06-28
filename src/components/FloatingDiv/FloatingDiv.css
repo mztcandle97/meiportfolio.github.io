@@ -27,4 +27,15 @@
   left: -8rem;
   height: 4.5rem;
 }
+@media screen and (max-width: 480px) {
+.f-backCircle {
+  position: relative;
+  width: 8rem;
+  border-radius: 50%;
+  top: -3rem;
+  left: 6rem;
+  height: 3rem;
+}
+}
+
 

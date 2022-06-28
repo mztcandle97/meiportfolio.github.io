@@ -44,7 +44,17 @@
 }
 
 @media screen and (max-width: 480px) {
-  .n-list {
+  /* .n-list {
     display: none;
+  } */
+  .n-list {
+    flex: 5;
   }
+  .n-list > ul {
+    display: flex;
+    gap: 1rem;
+    margin-right: 4rem;
+  }
+  
+ 
 }

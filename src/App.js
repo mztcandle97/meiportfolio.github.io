@@ -22,8 +22,10 @@ import { themeContext } from "./Context";
 function App()  {
 const theme = useContext(themeContext);
 const darkMode = theme.state.darkMode;
+
   return (
     <>
+    
     <div className="App"
       style={{
         background: darkMode ? "black" : "",
@@ -37,7 +39,6 @@ const darkMode = theme.state.darkMode;
              <img src={Candle1} alt="" />
               </Link>
               <div className="n-name">Mei</div>
-
       </div>
       {/* right */}
       <div className="n-right">
