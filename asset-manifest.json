@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/meiportfolio.github.io/static/css/main.e8b91127.css",
-    "main.js": "/meiportfolio.github.io/static/js/main.722d3970.js",
+    "main.css": "/meiportfolio.github.io/static/css/main.462cb997.css",
+    "main.js": "/meiportfolio.github.io/static/js/main.b0678c5f.js",
     "static/media/mei.pdf": "/meiportfolio.github.io/static/media/mei.e1d2debbb65130dae97f.pdf",
     "static/media/whatapp.png": "/meiportfolio.github.io/static/media/whatapp.7ae129108af51741eb44.png",
     "static/media/odoo.png": "/meiportfolio.github.io/static/media/odoo.8dd80d5e5e9752358721.png",
     "static/media/github.png": "/meiportfolio.github.io/static/media/github.9c243051c916e4d5f64c.png",
     "index.html": "/meiportfolio.github.io/index.html",
-    "main.e8b91127.css.map": "/meiportfolio.github.io/static/css/main.e8b91127.css.map",
-    "main.722d3970.js.map": "/meiportfolio.github.io/static/js/main.722d3970.js.map"
+    "main.462cb997.css.map": "/meiportfolio.github.io/static/css/main.462cb997.css.map",
+    "main.b0678c5f.js.map": "/meiportfolio.github.io/static/js/main.b0678c5f.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8b91127.css",
-    "static/js/main.722d3970.js"
+    "static/css/main.462cb997.css",
+    "static/js/main.b0678c5f.js"
   ]
 }
